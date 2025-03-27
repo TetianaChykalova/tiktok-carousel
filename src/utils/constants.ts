@@ -1,0 +1,1 @@
+export const TIKTOK_EMBED_PLAYER_URL = 'https://www.tiktok.com/player/v1/'
