@@ -22,5 +22,9 @@ const LINK_ARRAY: {
   {
     href: ROUTES.EMBED_PLAYER,
     label: 'Embed Player'
+  },
+  {
+    href: ROUTES.OEMBED_API,
+    label: 'Oembed Api'
   }
-]
+];
