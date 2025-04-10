@@ -47,7 +47,7 @@ export default function CustomCarousel({
         dynamicHeight={dynamicHeight}
         autoPlay={autoPlay}
         interval={interval}
-        infiniteLoop={true}
+        infiniteLoop={false}
         showStatus={false}
         showThumbs={false}
         showIndicators={true}
@@ -105,9 +105,8 @@ export default function CustomCarousel({
                   role={isSelected ? undefined : 'button'}
                   tabIndex={isSelected ? undefined : 0}
                   title={`${label} ${index + 1}`}
-                  aria-label={`${isSelected ? 'Selected: ' : ''}${label} ${
-                    index + 1
-                  }`}
+                  aria-label={`${isSelected ? 'Selected: ' : ''}${label} ${index + 1
+                    }`}
                 >
                   {index + 1}
                 </li>

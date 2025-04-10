@@ -9,7 +9,7 @@ export default function RootLayout({
     <html lang="en">
       <body style={{ margin: 0 }}>
         <Header />
-        <main style={{ marginTop: '20px' }}>
+        <main style={{ margin: '20px auto 0', maxWidth: '95%' }}>
           {children}
         </main>
       </body>
